@@ -1,0 +1,33 @@
+/* LandingPage.css */
+.landing-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header {
+    margin-top: 20px;
+  }
+  
+  .login-link {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+  }
+  
+  .logo-image {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+  }
+  
+  .caption-text {
+    font-size: 36px;
+    margin-top: 20px;
+  }
+  
+  .caption-subtext {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #555;
+  }
+  

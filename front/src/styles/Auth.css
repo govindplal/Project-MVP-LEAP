@@ -1,0 +1,94 @@
+/* Auth.css */
+*{
+  margin:0;
+  padding:0;
+}
+.auth-container {
+  display: flex;
+  box-sizing: border-box;
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+  transition: background-color 1s ease-in-out;
+}
+
+.auth-container.registering {
+  display: flex;
+  background: rgb(28,44,89);
+  background: linear-gradient(90deg, rgba(28,44,89,1) 50%, rgba(245,243,236,1) 50%); /* Change background color for registration form */
+}
+
+.auth-container.logging {
+  display: flex;
+  background: rgb(245,243,236);
+  background: linear-gradient(90deg, rgba(245,243,236,1) 50%, rgba(28,44,89,1) 50%);
+}
+
+.auth-toggle-container {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f3ec; /* Background color for the toggle container */
+}
+
+.auth-toggle {
+  cursor: pointer;
+  color: #1c2c59; /* Text color for the toggle button */
+  transition: color 1s ease-in-out;
+
+}
+
+.auth-form-container {
+  display:flex;
+  flex-direction:column;
+  box-sizing: border-box;
+  border-style: solid;
+  padding:10px;
+  padding-bottom:20px;
+  width: 100%;
+  background-color: #f5f3ec; /* Background color for the form container */
+  transition: background-color 1s ease-in-out;
+  border-radius: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.auth-form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.auth-button {
+  justify-content: center;
+  align-items:center;
+  margin-top:10px;
+  width:100%;
+  background-color: #1c2c59; /* Button background color */
+  color: #f5f3ec; /* Button text color */
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.auth-button:hover {
+  color: #fcba4f; /* Button text color on hover */
+}
+
+.submit{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
